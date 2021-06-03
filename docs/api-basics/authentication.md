@@ -106,7 +106,7 @@ This is a standard [OAuth 2.0 Authorization Code exchange](https://oauth.net/2/g
 
 | Field           | Type             | Example                                | Description                                                     |
 | :-------------- | :--------------- | :------------------------------------- | :-------------------------------------------------------------- |
-| `grant_type`    | String, required | `authorization_code`                   | TThe type of OAuth grant. Always "authorization_code"           |
+| `grant_type`    | String, required | `authorization_code`                   | The type of OAuth grant. Always "authorization_code"           |
 | `client_id`     | String, required | `ownerapi`                             | The OAuth client ID. Always "ownerapi"                          |
 | `code`          | String, required | `123`                                  | The authorization code from the last request.                   |
 | `code_verifier` | String, required | `123`                                  | The code verifier string generated previously.                  |
